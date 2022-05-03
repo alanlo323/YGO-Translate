@@ -16,7 +16,7 @@ namespace YGOTranslate
     {
         public static BepInEx.IL2CPP.UnityEngine.KeyCode key;
 
-        public SwitchComponent(IntPtr ptr) : base(ptr)
+        public SwitchComponent(IntPtr ptr) : base()
         {
             BepInExLoader.log.LogMessage("Switch Component Constructor!");
         }

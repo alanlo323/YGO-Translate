@@ -115,6 +115,24 @@
     <Reference Include="UnhollowerRuntimeLib">
       <HintPath>BepInEx\core\UnhollowerRuntimeLib.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>.\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>.\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>.\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>.\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>.\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>.\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
     <Reference Include="WasmDisassembler">
       <HintPath>BepInEx\core\WasmDisassembler.dll</HintPath>
     </Reference>

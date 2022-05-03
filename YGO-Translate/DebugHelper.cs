@@ -10,12 +10,11 @@ using Object = UnityEngine.Object;
 using Input = BepInEx.IL2CPP.UnityEngine.Input;
 using HarmonyLib;
 
-
 namespace YGOTranslate
 {
     public class DebugHelper : MonoBehaviour
     {
-        public DebugHelper(IntPtr ptr) : base(ptr)
+        public DebugHelper(IntPtr ptr) : base()
         {
             BepInExLoader.log.LogMessage("Debug Helper Constructor!");
         }
